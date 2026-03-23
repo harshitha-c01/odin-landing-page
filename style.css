@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero-text {
+    max-width: 400px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.info {
+    text-align: center;
+    padding: 60px 100px;
+    background-color: white;
+}
+
+.info h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 150px;
+}
+
+.box {
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 200px;
+}
+
+.quote p {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote h4 {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.cta {
+    background-color: #3882F6;
+    margin: 80px 150px;
+    padding: 40px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.cta button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
